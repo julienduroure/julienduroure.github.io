@@ -1,9 +1,11 @@
 ---
 layout: page
 title: BleRiFa
-permalink: /BleRiFa/
+permalink: /BleRiFa-fr/
 in_menu: true
 sort: 3
-lang: en
+lang: fr
 ref: BleRiFa
 ---
+
+En VF :)

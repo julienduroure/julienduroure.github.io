@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+permalink: /services-fr/
 in_menu: true
 sort: 1
-lang: en
+lang: fr
 ref: services
 ---
 
-Services page
+Services page en VF

@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Julien Duroure
-permalink: /
-lang: en
+permalink: /fr/
+lang: fr
 ref: home
 ---
 

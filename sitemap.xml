@@ -1,0 +1,30 @@
+---
+layout:
+permalink: /sitemap.xml
+ref: sitemap
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlnx="http://sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for post in site.posts %}
+		<url>
+			<loc>{{site.base}}{{post.url}}</loc>
+			{% assign versions=site.posts | where:"ref", post.ref %}
+			{% for version in versions %}
+				<xhtml:link rel="alternate" hreflang="{{version.lang}}" href="{{site.base}}{{version.url}}"/>
+			{% endfor %}
+		</url>
+{% endfor %}
+
+{% for page in site.pages %}
+	{% if page.ref == 404 %}{% else %}
+		<url>
+			<loc>{{site.base}}{{page.url}}</loc>
+			{% assign versions=site.pages | where:"ref", page.ref %}
+			{% for version in versions %}
+				<xhtml:link rel="alternate" hreflang="{{version.lang}}" href="{{site.base}}{{version.url}}"/>
+			{% endfor %}
+		</url>
+	{% endif %}
+{% endfor %}
+
+</urlset>

@@ -4,6 +4,7 @@ title:  "Second post!"
 lang: en
 ref: test2
 tags: [tag2, tag3]
+permalink: /:year/:month/:day/Second/
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

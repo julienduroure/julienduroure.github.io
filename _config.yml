@@ -26,4 +26,4 @@ github_username:  julienduroure
 # Build settings
 markdown: kramdown
 
-exclude: [Gemfile, Gemfile.lock, TODO.txt]
+exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/]

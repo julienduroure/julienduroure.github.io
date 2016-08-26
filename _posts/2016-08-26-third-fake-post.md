@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Second post!"
+title:  "Third post!"
 lang: en
-ref: test2
+ref: test3
 tags: [tag2, tag3]
 permalink: /:year/:month/:day/Second/
 img: None_100.png

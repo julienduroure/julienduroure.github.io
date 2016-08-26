@@ -26,6 +26,10 @@ analytics: false #false or UA_ID
 
 copyright: "&copy 2016 Julien Duroure"
 
+tagurl:
+  en: tags
+  fr: tags-fr
+
 # Build settings
 markdown: kramdown
 

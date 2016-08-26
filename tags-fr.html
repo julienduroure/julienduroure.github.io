@@ -27,28 +27,25 @@ ref: tags
 	{% endif %}
 {% endfor %}
 
+<div class="taglist">
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ site.data.taglang[tag][page.lang] }} </a>
+	<a href="#{{ tag | slugify }}" class="post-tag"> {{ site.data.taglang[tag][page.lang] }} </a>
 {% endfor %}
+</div>
 
+<div class="pagetag">
 {% for tag in tags %}
-	<h2 id="{{ tag | slugify }}">{{ site.data.taglang[tag][page.lang] }}</h2>
+	<div class="post-tag">{{ site.data.taglang[tag][page.lang] }}</div>
 	<ul>
 	{% assign posts = site.posts | where:"lang", page.lang %}
 	 {% for post in posts %}
 		 {% if post.tags contains tag %}
 		 <li>
-		 <h3>
-		 <a href="{{ post.url }}">
-		 {{ post.title }}
-		 <small>{% include date.html date=page.date %}</small>
-		 </a>
-		 {% for tag in post.tags %}
-			 <a class="tag" href="/blog/tags/#{{ tag | slugify }}">{{ site.data.taglang[tag][page.lang] }}</a>
-		 {% endfor %}
-		 </h3>
+		 <a href="{{ post.url }}">{{ post.title }}</a>
+		 <small class="post-tag-date">{% include date.html date=post.date %}</small>
 		 </li>
 		 {% endif %}
 	 {% endfor %}
 	</ul>
 {% endfor %}
+</div>

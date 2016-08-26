@@ -9,21 +9,19 @@ ref: blog
 alternate: feed.xml
 ---
 
-<div class="home">
+Don't miss any news, follow our <a href="{{ site.baseurl }}/{{ page.alternate }}">feed</a>!
 
-  <h1 class="page-heading">Posts</h1>
+<div class="posts">
+	{% assign posts=site.posts | where:"lang", page.lang %}
+	{% for post in posts %}
+	<article class="post">
 
-  <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			<div class="entry">
+				{% if post.img %}<a href="{{ site.baseurl }}{{ post.url }}"><img align="left" src="{{ site.baseurl }}/assets/post/{{post.img}}"/></a>{% endif %}{{ post.excerpt }}
+			</div>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ site.data.trad["readmore"][page.lang] }}</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+	</article>
+   {% endfor %}
 </div>

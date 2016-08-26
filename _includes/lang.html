@@ -7,4 +7,5 @@
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% for page in pages %}
 	<span class="lang_item"><a href="{{ page.url | prepand: site.baseurl}}" class="{{ page.lang }}">{{ site.data.langdescr[page.lang] }}</a></span>
-{% endfor %} 
+{% endfor %}
+</div>

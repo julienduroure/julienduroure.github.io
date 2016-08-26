@@ -22,6 +22,7 @@ index:
 
 twitter_username: julienduroure
 github_username:  julienduroure
+analytics: false #false or UA_ID
 
 # Build settings
 markdown: kramdown

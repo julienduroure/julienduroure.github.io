@@ -14,7 +14,7 @@ description:
   fr: Rigging - Animation - Formation - Développement
   en: Rigging - Animation - Training - Development
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://julienduroure.com" # the base hostname & protocol for your site
+url: "http://julienduroure.github.io/www/" # the base hostname & protocol for your site
 
 index:
   en: /

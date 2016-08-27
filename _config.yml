@@ -33,4 +33,4 @@ tagurl:
 # Build settings
 markdown: kramdown
 
-exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/]
+exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/, _dev.yml]

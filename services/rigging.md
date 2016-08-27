@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rigging
-permalink: /services/rigging
+permalink: /services/rigging/
 sort: 0
 in_menu: false
 lang: en

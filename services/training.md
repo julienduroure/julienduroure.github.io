@@ -8,4 +8,5 @@ lang: en
 ref: training
 ---
 
-Training Page
+| | __Training__ <br/><br/>![Training]({{ site.baseurl }}/assets/imgs/site/training.png)<br/><br/>One on One<br/>Class session<br/>Online Training | |
+{: class="resptable resp3 card2"}

@@ -1,2 +1,2 @@
-{% assign posts=site.posts | where:"lang", page.lang %}{% for post in posts limit:3 %} | [{{post.title | truncate:30}}<br/>{% if post.img %}<img style="margin-top:10px;" src="{{ site.baseurl }}/assets/post/{{ post.img }}"/>{% endif %}]({{post.url | prepend: site.baseurl }}) {%endfor%} |
+{% assign posts=site.documents | where:"lang", page.lang | sort: "date" %}{% for post in posts limit:3 %} | [{{post.title | truncate:30}}<br/>{% if post.img %}<img style="margin-top:10px;" src="{{ site.baseurl }}/assets/post/{{ post.img }}"/>{% endif %}]{% if post.external %}({{post.external}}){% else %}({{post.url | prepend: site.baseurl }}){% endif %} {%endfor%} |
 {: class="resptable resp3"}

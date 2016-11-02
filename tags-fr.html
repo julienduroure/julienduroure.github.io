@@ -8,7 +8,7 @@ ref: tags
 
 
 {% assign stringtags = "" %}
-{% assign posts = site.posts | where:"lang", page.lang %}
+{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' %}
 {% for post in posts %}
 	{% assign stringtags_post = post.tags | join:'|' | append:'|' %}
 	{% assign stringtags = stringtags | append:stringtags_post %}
@@ -37,13 +37,20 @@ ref: tags
 {% for tag in tags %}
 	<div class="post-tag">{{ site.data.taglang[tag][page.lang] }}</div>
 	<ul>
-	{% assign posts = site.posts | where:"lang", page.lang %}
+	{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' %}
 	 {% for post in posts %}
 		 {% if post.tags contains tag %}
-		 <li>
-		 <a href="{{ post.url }}">{{ post.title }}</a>
-		 <small class="post-tag-date">{% include date.html date=post.date %}</small>
-		 </li>
+		 {% if post.external %}
+				 <li>
+				<a href="{{ post.external }}">{{ post.title }}</a>
+				<small class="post-tag-date">{% include date.html date=post.date %}</small>
+				</li>
+		 {% else %}
+			 <li>
+			 <a href="{{ post.url }}">{{ post.title }}</a>
+			 <small class="post-tag-date">{% include date.html date=post.date %}</small>
+			 </li>
+			{% endif %}
 		 {% endif %}
 	 {% endfor %}
 	</ul>

@@ -37,7 +37,7 @@ ref: tags
 {% for tag in tags %}
 	<div class="post-tag">{{ site.data.taglang[tag][page.lang] }}</div>
 	<ul>
-	{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' %}
+	{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' | reverse %}
 	 {% for post in posts %}
 		 {% if post.tags contains tag %}
 		 	{% if post.external %}

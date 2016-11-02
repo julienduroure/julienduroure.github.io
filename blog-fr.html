@@ -12,7 +12,7 @@ alternate: feed_fr.xml
 Ne ratez aucune info, abonnez-vous au <a href="{{ site.baseurl }}/{{ page.alternate }}">flux RSS</a>!
 
 <div class="posts">
-	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' %}
+	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}
 	{% for post in posts %}
 			{% if post.external %}
 				<article class="post-external">

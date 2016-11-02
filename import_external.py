@@ -5,6 +5,7 @@ WWW_img  = "assets/post/"
 BLERIFA_root = "/media/julien/Ju3D/3D/Projects/01 - In Progress/Rigs/script/BleRiFa/"
 BLERIFA_dir  = "_posts/"
 BLERIFA_img  = "assets/post/"
+BLERIFA_URL  = "http://BleRiFa.com"
 
 import os
 from shutil import copyfile
@@ -22,7 +23,7 @@ def create_new_file(filename, yaml):
     fil_.write("ref: " + yaml["ref"] + "\n")
     fil_.write("tags: " + "[BleRiFa]" + "\n")
     fil_.write("img: " + yaml["img"] + "\n")
-    fil_.write("external: " + yaml["permalink"] + "\n")
+    fil_.write("external: " + BLERIFA_URL + yaml["permalink"] + "\n")
     fil_.write("---\n")
 
 def get_yaml(filename):

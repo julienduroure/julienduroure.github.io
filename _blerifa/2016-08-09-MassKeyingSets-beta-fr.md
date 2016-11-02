@@ -4,5 +4,5 @@ lang: fr
 ref: MassKeyingSets-beta
 tags: [BleRiFa]
 img: 20160809_MassKeyingSets.png
-external: /2016/08/09/MassKeyigSets-beta-lancement/
+external: http://BleRiFa.com/2016/08/09/MassKeyigSets-beta-lancement/
 ---

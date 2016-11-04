@@ -7,3 +7,9 @@ readmore:
 latest_news:
   fr: Dernières News
   en: Latest News
+back:
+  fr: Retourner à la liste des articles
+  en: Back to post list
+blog_url:
+  fr: /blog-fr/
+  en: /blog/

@@ -3,7 +3,7 @@ layout: post
 title:  "FootRollBreak"
 lang: fr
 ref: FootRollBreak
-tags: [Rigging]
+tags: [Rigging, BleRiFa]
 permalink: /:year/:month/:day/footrollbreak/
 img: 20160327_footrollbreak.png
 ---

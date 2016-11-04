@@ -4,7 +4,7 @@ title:  "Capitole du Libre 2016"
 permalink: /:year/:month/:day/capitole-du-libre-2016-en/
 lang: en
 ref: capitole_du_libre_2016
-tags: [Talk]
+tags: [Talk, RGBa]
 img: CdL.png
 ---
 

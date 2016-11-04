@@ -3,7 +3,7 @@ layout: post
 title:  "Grafik Labor à Rennes le 2 Juillet"
 lang: fr
 ref: 2016_Grafik_Labor
-tags: [Talk]
+tags: [Talk, RGBa]
 permalink: /:year/:month/:day/grafik-labor-a-rennes-le-2-juillet/
 img: 20160626_Grafik_Labor.png
 ---

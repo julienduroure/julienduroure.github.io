@@ -5,11 +5,14 @@ readmore:
   fr: Lire l'article
   en: Read More
 latest_news:
-  fr: Dernières News
-  en: Latest News
+  fr: Dernières News ...
+  en: Latest News ...
 back:
   fr: Retourner à la liste des articles
   en: Back to post list
 blog_url:
   fr: /blog-fr/
   en: /blog/
+read_all_news:
+  fr: ... Lire toutes les news
+  en: ... Read all news

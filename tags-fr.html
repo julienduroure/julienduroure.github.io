@@ -35,7 +35,7 @@ ref: tags
 
 <div class="pagetag">
 {% for tag in tags %}
-	<div class="post-tag">{{ site.data.taglang[tag][page.lang] }}</div>
+	<div class="post-tag" id="{{ tag | slugify }}">{{ site.data.taglang[tag][page.lang] }}</div>
 	<ul>
 	{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' | reverse %}
 	 {% for post in posts %}

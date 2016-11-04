@@ -8,8 +8,7 @@ permalink: /:year/:month/:day/footrollbreak/
 img: 20160327_footrollbreak.png
 ---
 
-Bonjour à tous,
-
+Bonjour à tous,  
 Je suis heureux de vous présenter mon nouvel addon, [disponible dès maintenant sur le Blender Market][1].  
 
 # Pourquoi ?

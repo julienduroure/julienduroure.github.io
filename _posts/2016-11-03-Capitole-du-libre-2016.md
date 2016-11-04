@@ -8,8 +8,7 @@ tags: [Talk, RGBa]
 img: CdL.png
 ---
 
-Hi all,
-
+Hi all,  
 On November, 19th, I will give a talk (in French) about how Rigging is used to help Animation.  
 With my friends from [RGBa][2], we are going to speak about how to set up a 3D shot from scratch.
 

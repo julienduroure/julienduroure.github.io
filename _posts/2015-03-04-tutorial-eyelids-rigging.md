@@ -4,7 +4,7 @@ title:  Tutorial - eyelids rigging
 lang: en
 ref: tuto_sourcils
 tags: [Rigging, Tuto]
-permalink: /:year/:month/:day/tutoriel-eyelids-rigging/
+permalink: /:year/:month/:day/tutorial-eyelids-rigging/
 img: 20150311_rigging_sourcils.png
 ---
 Hi all,

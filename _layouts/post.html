@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
     <div class="taglist">
       {% for tag in page.tags %}
-        <a href="{{ site.baseurl}}/blog/{{ site.tagurl[page.lang] }}/#{{tag | slugify}}" class="post-tag"> {{ site.data.taglang[tag][page.lang] }} </a>
+        <a href="{{ site.baseurl}}/{{page.lang}}/blog/tags/#{{tag | slugify}}" class="post-tag"> {{ site.data.taglang[tag][page.lang] }} </a>
       {% endfor %}
   </div>
   </header>

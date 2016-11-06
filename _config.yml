@@ -13,7 +13,7 @@ email: contact@julienduroure.com
 description:
   fr: Rigging - Animation - Formation - Développement
   en: Rigging - Animation - Training - Development
-baseurl: "/www" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://julienduroure.github.io/www/" # the base hostname & protocol for your site
 
 index:

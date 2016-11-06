@@ -102,12 +102,12 @@ This is exactly same that On selected keyframe, but paste is done on selected ma
 Here is a tour of this tool. As you can see, it not a really simple tool to use. I think that these different options are quite different from each others, and more important, that these option don't react same way regarding insert keyframe on current frame : We don't have to for Propagate Pose, but we need to for other options.
 
 [1]: {{ site.baseurl }}/en/2015/07/2-74-2-75-rigging-animation-new-features/
-[2]: {{ site.baseurl }}/assets/imgs/post/2015-09/menu.png
-[3]: {{ site.baseurl }}/assets/imgs/post/2015-09/movment_EN.png
-[4]: {{ site.baseurl }}/assets/imgs/post/2015-09/propagate_pose.png
-[5]: {{ site.baseurl }}/assets/imgs/post/2015-09/auto_insert.png
-[6]: {{ site.baseurl }}/assets/imgs/post/2015-09/hips_KO.png
-[7]: {{ site.baseurl }}/assets/imgs/post/2015-09/last_kekyframe.png
-[8]: {{ site.baseurl }}/assets/imgs/post/2015-09/selected_before.png
-[9]: {{ site.baseurl }}/assets/imgs/post/2015-09/on_selected_after.png
-[10]: {{ site.baseurl }}/assets/imgs/post/2015-09/selected_markers.png
+[2]: {{ site.baseurl }}/assets/imgs/post/2015/09/menu.png
+[3]: {{ site.baseurl }}/assets/imgs/post/2015/09/movment_EN.png
+[4]: {{ site.baseurl }}/assets/imgs/post/2015/09/propagate_pose.png
+[5]: {{ site.baseurl }}/assets/imgs/post/2015/09/auto_insert.png
+[6]: {{ site.baseurl }}/assets/imgs/post/2015/09/hips_KO.png
+[7]: {{ site.baseurl }}/assets/imgs/post/2015/09/last_kekyframe.png
+[8]: {{ site.baseurl }}/assets/imgs/post/2015/09/selected_before.png
+[9]: {{ site.baseurl }}/assets/imgs/post/2015/09/on_selected_after.png
+[10]: {{ site.baseurl }}/assets/imgs/post/2015/09/selected_markers.png

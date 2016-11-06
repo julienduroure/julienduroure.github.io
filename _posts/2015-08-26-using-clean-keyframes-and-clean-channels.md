@@ -86,13 +86,13 @@ As you can see, cleaning was really useful !
 >
 > print("keyframes : " + str(keyframes))
 
-[1]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_keyframes.png
-[2]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_before.png
-[3]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_before_detail_fr.png
-[4]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_after.png
-[5]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_channels.png
-[6]: {{ site.baseurl }}/assets/imgs/post/2015-08/clean_channels_after.png
-[7]: {{ site.baseurl }}/assets/imgs/post/2015-08/rig_spider.png
-[8]: {{ site.baseurl }}/assets/imgs/post/2015-08/before_.png
-[9]: {{ site.baseurl }}/assets/imgs/post/2015-08/after_.png
+[1]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_keyframes.png
+[2]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_before.png
+[3]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_before_detail_fr.png
+[4]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_after.png
+[5]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_channels.png
+[6]: {{ site.baseurl }}/assets/imgs/post/2015/08/clean_channels_after.png
+[7]: {{ site.baseurl }}/assets/imgs/post/2015/08/rig_spider.png
+[8]: {{ site.baseurl }}/assets/imgs/post/2015/08/before_.png
+[9]: {{ site.baseurl }}/assets/imgs/post/2015/08/after_.png
 [99]: {{ site.baseurl }}/en/2015/07/2-74-2-75-rigging-animation-new-features/

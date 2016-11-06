@@ -107,14 +107,14 @@ Here is a video, in French, about all these tools :
 
 {% include youtube.html id='bv66gdexbqg' %}
 
-[1]: {{ site.baseurl }}/assets/imgs/post/2015-03/bone_layers.png
-[2]: {{ site.baseurl }}/assets/imgs/post/2015-03/display_mode.png
-[3]: {{ site.baseurl }}/assets/imgs/post/2015-03/display_example.png
-[4]: {{ site.baseurl }}/assets/imgs/post/2015-03/rename1.png
-[5]: {{ site.baseurl }}/assets/imgs/post/2015-03/rename2.png
-[6]: {{ site.baseurl }}/assets/imgs/post/2015-03/rename3.png
-[7]: {{ site.baseurl }}/assets/imgs/post/2015-03/segment.png
-[8]: {{ site.baseurl }}/assets/imgs/post/2015-03/mirror1.png
+[1]: {{ site.baseurl }}/assets/imgs/post/2015/03/bone_layers.png
+[2]: {{ site.baseurl }}/assets/imgs/post/2015/03/display_mode.png
+[3]: {{ site.baseurl }}/assets/imgs/post/2015/03/display_example.png
+[4]: {{ site.baseurl }}/assets/imgs/post/2015/03/rename1.png
+[5]: {{ site.baseurl }}/assets/imgs/post/2015/03/rename2.png
+[6]: {{ site.baseurl }}/assets/imgs/post/2015/03/rename3.png
+[7]: {{ site.baseurl }}/assets/imgs/post/2015/03/segment.png
+[8]: {{ site.baseurl }}/assets/imgs/post/2015/03/mirror1.png
 [9]: http://www.puppeteerlounge.com/free-characters
 [10]: https://developer.blender.org/D1147
 [11]: http://developer.blender.org

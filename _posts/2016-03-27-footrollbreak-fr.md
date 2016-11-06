@@ -14,7 +14,7 @@ Bonjour à tous,
 Je suis heureux de vous présenter mon nouvel addon, [disponible dès maintenant sur le Blender Market][1].  
 
 # Pourquoi ?
-![FootRollBreak]({{ site.baseurl }}/assets/imgs/post/2016-03/footbreak.png)
+![FootRollBreak]({{ site.baseurl }}/assets/imgs/post/2016/03/footbreak.png)
 
 En analysant le mouvement d'un pied lors d'une marche, on se rend compte que le pied a 3 points de rotation différent lorsqu'il touche le sol.
 

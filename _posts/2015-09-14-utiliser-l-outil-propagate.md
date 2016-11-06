@@ -106,12 +106,12 @@ Cela fonctionne comme pour _On selected Keyframes_, mais prend en compte les mar
 Voici pour ce tour d'horizon de l'outil _Propagate._ Comme vous avez pu le remarquer, il n'est pas forcement facile de le prendre en main. Je trouve que les différentes options sont assez différentes les uns des autres, et surtout, ne réagissent pas de la même manière sur l'enregistrement de l'image courante ( On ne doit pas enregistrer l'image courante avant _Propagate Pose_, qui s'en occupe, mais il faut le faire pour les autres options).
 
 [1]: {{ site.baseurl }}/fr/2015/07/2-74-2-75-les-nouveautes-rigging-animation/
-[2]: {{ site.baseurl }}/assets/imgs/post/2015-09/menu.png
-[3]: {{ site.baseurl }}/assets/imgs/post/2015-09/movment_FR.png
-[4]: {{ site.baseurl }}/assets/imgs/post/2015-09/propagate_pose.png
-[5]: {{ site.baseurl }}/assets/imgs/post/2015-09/auto_insert.png
-[6]: {{ site.baseurl }}/assets/imgs/post/2015-09/hips_KO.png
-[7]: {{ site.baseurl }}/assets/imgs/post/2015-09/last_kekyframe.png
-[8]: {{ site.baseurl }}/assets/imgs/post/2015-09/selected_before.png
-[9]: {{ site.baseurl }}/assets/imgs/post/2015-09/on_selected_after.png
-[10]: {{ site.baseurl }}/assets/imgs/post/2015-09/selected_markers.png
+[2]: {{ site.baseurl }}/assets/imgs/post/2015/09/menu.png
+[3]: {{ site.baseurl }}/assets/imgs/post/2015/09/movment_FR.png
+[4]: {{ site.baseurl }}/assets/imgs/post/2015/09/propagate_pose.png
+[5]: {{ site.baseurl }}/assets/imgs/post/2015/09/auto_insert.png
+[6]: {{ site.baseurl }}/assets/imgs/post/2015/09/hips_KO.png
+[7]: {{ site.baseurl }}/assets/imgs/post/2015/09/last_kekyframe.png
+[8]: {{ site.baseurl }}/assets/imgs/post/2015/09/selected_before.png
+[9]: {{ site.baseurl }}/assets/imgs/post/2015/09/on_selected_after.png
+[10]: {{ site.baseurl }}/assets/imgs/post/2015/09/selected_markers.png

@@ -4,7 +4,9 @@ title:  Outils de Rigging
 lang: fr
 ref: rigging_tools
 tags: [Rigging]
-permalink: /:year/:month/:day/outils-de-rigging/
+permalink: /fr/:year/:month/outils-de-rigging/
+redirect_from:
+  - /fr/2015/03/outils-de-rigging/
 img: 20150311_rigging_tools.png
 ---
 

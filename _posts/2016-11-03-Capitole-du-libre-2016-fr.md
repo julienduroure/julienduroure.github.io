@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Capitole du Libre 2016"
-permalink: /:year/:month/:day/capitole-du-libre-2016/
+permalink: /fr/:year/:month/capitole-du-libre-2016/
+redirect_from:
+  - /2016/11/capitole-du-libre-2016/
 lang: fr
 ref: capitole_du_libre_2016
 tags: [Talk, RGBa]

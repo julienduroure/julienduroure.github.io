@@ -4,7 +4,9 @@ title:  "FootRollBreak"
 lang: fr
 ref: FootRollBreak
 tags: [Rigging, BleRiFa]
-permalink: /:year/:month/:day/footrollbreak/
+permalink: /fr/:year/:month/footrollbreak/
+redirect_from:
+  /2016/03/footrollbreak/
 img: 20160327_footrollbreak.png
 ---
 

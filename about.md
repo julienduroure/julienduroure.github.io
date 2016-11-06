@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Contact Me
-permalink: /about/
+permalink: /en/about/
+redirect_from:
+  - /about/
 sort: 4
 in_menu: true
 lang: en

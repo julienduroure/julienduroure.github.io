@@ -4,7 +4,9 @@ title:  "Comprendre les espaces d'évaluation"
 lang: fr
 ref: espace_evaluation
 tags: [Rigging, Tuto]
-permalink: /:year/:month/:day/comprendre-les-espaces-devaluation/
+permalink: /fr/:year/:month/comprendre-les-espaces-devaluation/
+redirect_from:
+  - /2015/04/comprendre-les-espaces-devaluation/
 img: 20150402_evaluation_space.png
 ---
 

@@ -2,6 +2,8 @@
 layout: home
 title: Julien Duroure
 permalink: /
+redirect_from:
+  - /en/
 lang: en
 ref: home
 ---

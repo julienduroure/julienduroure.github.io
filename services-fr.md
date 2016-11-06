@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Services
-permalink: /services-fr/
+permalink: /fr/prestations/
 in_menu: true
 sort: 1
 lang: fr

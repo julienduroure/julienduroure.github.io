@@ -4,7 +4,9 @@ title:  Future Rigging tutorials in French
 lang: en
 ref: future_rigging_tutorials
 tags: [Tuto]
-permalink: /:year/:month/:day/future-rigging-tutorials-in-french/
+permalink: /en/:year/:month/future-rigging-tutorials-in-french/
+redirect_from:
+  - /2015/06/future-rigging-tutorials-in-french/
 img: None_100.png
 ---
 

@@ -4,7 +4,9 @@ title:  Expérimentation de Rig de main
 lang: fr
 ref: hand_rig_experiment
 tags: [Rigging]
-permalink: /:year/:month/:day/experimentation-de-rig-de-main/
+permalink: /fr/:year/:month/experimentation-de-rig-de-main/
+redirect_from:
+  - /2015/03/experimentation-de-rig-de-main/
 img: 20150314_hand_rig_experiment.png
 ---
 

@@ -4,7 +4,9 @@ title:  "Sondage : Le rigging dans Blender"
 lang: fr
 ref: future_rigging_tutorials
 tags: [Tuto]
-permalink: /:year/:month/:day/sondage-le-rigging-dans-blender/
+permalink: /fr/:year/:month/sondage-le-rigging-dans-blender/
+redirect_from:
+  - /2015/06/sondage-le-rigging-dans-blender/
 img: None_100.png
 ---
 

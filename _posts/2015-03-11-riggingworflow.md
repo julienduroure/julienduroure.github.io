@@ -4,7 +4,9 @@ title:  Rigging Workflow - Development
 lang: en
 ref: rigging_tools
 tags: [Rigging]
-permalink: /:year/:month/:day/riggingworflow/
+permalink: /en/:year/:month/riggingworflow/
+redirect_from:
+  - /2015/03/riggingworflow/
 img: 20150311_rigging_tools.png
 ---
 

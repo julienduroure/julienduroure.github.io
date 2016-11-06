@@ -4,7 +4,9 @@ title: Hand Rig Experiment
 lang: en
 ref: hand_rig_experiment
 tags: [Rigging]
-permalink: /:year/:month/:day/hand-rig-experiment/
+permalink: /en/:year/:month/hand-rig-experiment/
+redirect_from:
+  - /2015/03/hand-rig-experiment/
 img: 20150314_hand_rig_experiment.png
 ---
 

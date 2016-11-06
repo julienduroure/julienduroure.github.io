@@ -11,8 +11,8 @@ back:
   fr: Retourner à la liste des articles
   en: Back to post list
 blog_url:
-  fr: /blog-fr/
-  en: /blog/
+  fr: /fr/blog/
+  en: /en/blog/
 read_all_news:
   fr: ... Lire toutes les news
   en: ... Read all news

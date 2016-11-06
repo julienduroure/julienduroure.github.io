@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Contactez-moi
-permalink: /about-fr/
+permalink: /fr/about/
+redirect_from:
+  - /about-fr/
 sort: 4
 in_menu: true
 lang: fr

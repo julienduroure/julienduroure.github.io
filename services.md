@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+permalink: /en/services/
+redirect_from:
+  - /services/
 in_menu: true
 sort: 1
 lang: en

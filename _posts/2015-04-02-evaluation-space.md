@@ -4,7 +4,9 @@ title:  "Evaluation Space"
 lang: en
 ref: espace_evaluation
 tags: [Rigging, Tuto]
-permalink: /:year/:month/:day/evaluation-space/
+permalink: /en/:year/:month/evaluation-space/
+redirect_from:
+  - /2015/04/evaluation-space/
 img: 20150402_evaluation_space.png
 ---
 

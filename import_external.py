@@ -1,4 +1,4 @@
-WWW_root = "/media/julien/Ju3D/3D/Projects/01 - In Progress/Rigs/script/www/"
+WWW_root = "/media/julien/Ju3D/3D/Projects/01 - In Progress/Rigs/script/julienduroure.github.io/"
 WWW_dir  = "_blerifa/"
 WWW_img  = "assets/post/"
 

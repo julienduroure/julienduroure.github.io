@@ -8,4 +8,7 @@ lang: fr
 ref: animation
 ---
 
-Page Animation
+{% include youtube.html id="buRXPNrFdgk" %}
+<br/>
+{% include vimeo.html id="91190666" %}
+<br/>

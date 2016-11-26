@@ -13,12 +13,11 @@ ref: rigging
 
 <br/>
 
-| Visitez mon site [BleRiFa][5], dedié au développement d'Addons pour le Rigging & l'Animation |
+| Visitez mon site [BleRiFa][2], dedié au développement d'Addons pour le Rigging & l'Animation |
 {: class="resptable resp1 card1"}
 
 
 [1]: {{ site.baseurl }}/assets/imgs/site/rigging_UI.png
-[2]: http://BleRiFa.com
+[2]: http://BleRiFa.com/fr/
 [3]: {{ site.baseurl }}/assets/imgs/site/rig_charact.png
 [4]: {{ site.baseurl }}/assets/imgs/site/rig_mech.png
-[5]: http://BleRiFa.com

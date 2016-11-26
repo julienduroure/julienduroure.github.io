@@ -13,7 +13,7 @@ ref: rigging
 
 <br/>
 
-| Check my [BleRiFa][5] website, dedicated to Rigging & Animation Addons development |
+| Check my [BleRiFa][2] website, dedicated to Rigging & Animation Addons development |
 {: class="resptable resp1 card1"}
 
 
@@ -21,4 +21,3 @@ ref: rigging
 [2]: http://BleRiFa.com
 [3]: {{ site.baseurl }}/assets/imgs/site/rig_charact.png
 [4]: {{ site.baseurl }}/assets/imgs/site/rig_mech.png
-[5]: http://BleRiFa.com

@@ -37,3 +37,4 @@ collections:
 
 gems:
   - jekyll-redirect-from
+  - jekyll-seo-tag

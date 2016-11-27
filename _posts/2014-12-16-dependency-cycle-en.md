@@ -5,7 +5,7 @@ lang: en
 ref: dependency-cycle-detected
 tags: [Rigging, Tuto]
 permalink: /en/:year/:month/dependency-cycle-detected/
-img: None_100.png
+img: 20141216_dep.png
 ---
 
 Hi all,  

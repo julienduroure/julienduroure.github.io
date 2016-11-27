@@ -6,6 +6,7 @@ sort: 0
 in_menu: false
 lang: fr
 ref: animation
+service: True
 ---
 
 {% include youtube.html id="buRXPNrFdgk" %}

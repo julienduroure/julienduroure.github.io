@@ -12,8 +12,11 @@
       <div class="wrapper">
         {{ content }}
         {% if page.layout == "post" %}
-          <a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}">{{site.data.trad["back"][page.lang]}}</a>
+          <a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}">{{site.data.trad["back_blog"][page.lang]}}</a>
         {% endif %}
+				{% if page.service %}
+					<a href="{{ site.baseurl }}{{site.data.trad["service_url"][page.lang]}}">{{site.data.trad["back_service"][page.lang]}}</a>
+				{% endif %}
       </div>
 
     </div>

@@ -6,6 +6,7 @@ sort: 0
 in_menu: false
 lang: en
 ref: rigging
+service: True
 ---
 
 | __Character Rigging__ <br/><br/>![][3]<br/><br/>Ready to use Rigs<br/><br/>Body / Face Rigging<br/><br/>Stretch / Toon Rigs<br/><br/><br/><br/> | __Scripts__ <br/><br/>![][1]<br/><br/>User Interface<br/><br/>Snapping tools<br/><br/>Rigging/Animation tools<br/><br/>See my [BleRiFa][2] website<br/><br/>| __Mechanical Rigs__ <br/><br/>![][4]<br/><br/>Based on Constraints<br/><br/>Drivers<br/><br/>Automation<br/><br/><br/><br/> |

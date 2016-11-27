@@ -6,6 +6,7 @@ sort: 0
 in_menu: false
 lang: fr
 ref: rigging
+service: True
 ---
 
 | __Rigs de perso__ <br/><br/>![][3]<br/><br/>Prêt à l'emploi<br/><br/>Corps / visage<br/><br/>Effet Cartoon<br/><br/><br/><br/> | __Scripts__ <br/><br/>![][1]<br/><br/>Interface personnalisées<br/><br/>Outils divers<br/><br/>Outils Rigging/Animation<br/><br/>Voir le site [BleRiFa][2]<br/><br/>| __Rigs mécaniques__ <br/><br/>![][4]<br/><br/>Contraintes<br/><br/>Drivers<br/><br/>Automatisation<br/><br/><br/><br/> |

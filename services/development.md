@@ -6,6 +6,7 @@ sort: 0
 in_menu: false
 lang: en
 ref: development
+service: True
 ---
 
 | | __Scripting__ <br/><br/>![Dev][1]<br/><br/>Addons<br/><br/>python scripting<br/><br/>What you want!<br/><br/> | |

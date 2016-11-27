@@ -7,7 +7,7 @@ readmore:
 latest_news:
   fr: Dernières News ...
   en: Latest News ...
-back:
+back_blog:
   fr: Retourner à la liste des articles
   en: Back to post list
 blog_url:
@@ -16,3 +16,9 @@ blog_url:
 read_all_news:
   fr: ... Lire toutes les news
   en: ... Read all news
+service_url:
+  fr: /fr/prestations/
+  en: /en/services/
+back_service:
+  fr: Retourner aux prestations
+  en: Back to all services

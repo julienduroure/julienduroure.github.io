@@ -10,7 +10,8 @@ ref: blog
 alternate: feed_fr.xml
 ---
 
-Ne ratez aucune info, abonnez-vous au <a href="{{ site.baseurl }}/{{ page.alternate }}">flux RSS</a>!
+Ne ratez aucune info, abonnez-vous au <a href="{{ site.baseurl }}/{{ page.alternate }}">flux RSS</a>!<br/>
+Retrouvez les articles <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}tags">triés par thème</a>.
 
 <div class="posts">
 	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}

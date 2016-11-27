@@ -15,6 +15,8 @@ ref: feed
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign posts=site.posts limit:10 | where:"lang", page.lang %}
     {% for post in posts %}
+		{% if post.no_rss %}
+		{% else %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
@@ -25,6 +27,7 @@ ref: feed
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
       </item>
+		{% endif %}
     {% endfor %}
   </channel>
 </rss>

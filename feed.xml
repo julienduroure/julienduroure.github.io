@@ -8,7 +8,7 @@ ref: feed
   <channel>
     <title>{{ site.title[page.lang] | xml_escape }}</title>
     <description>{{ site.description[page.lang] | xml_escape }}</description>
-    <link>{{ site.url }}/</link>
+    <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>

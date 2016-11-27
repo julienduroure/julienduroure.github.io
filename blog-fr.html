@@ -19,7 +19,7 @@ Retrouvez les articles <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.
 			{% if post.external %}
 				<article class="post-external">
 						<div class="entry">
-							{% if post.img %}<a href="{{ site.baseurl }}{{ post.url }}"><img align="left" style="width:50px; height:auto;" src="{{ site.baseurl }}/assets/post/{{post.img}}"/></a>{% endif %}
+							{% if post.img %}<a href="{{ post.external }}"><img align="left" style="width:50px; height:auto;" src="{{ site.baseurl }}/assets/post/{{post.img}}"/></a>{% endif %}
 						</div>
 					<a href="{{ post.external }}">{{ post.title }}</a> <small class="post-date">{% include date.html date=post.date %}</small>
 					<div class="taglist_in_postlist">

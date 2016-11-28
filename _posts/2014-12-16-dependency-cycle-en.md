@@ -6,6 +6,7 @@ ref: dependency-cycle-detected
 tags: [Rigging, Tuto]
 permalink: /en/:year/:month/dependency-cycle-detected/
 img: 20141216_dep.png
+comments: true
 ---
 
 Hi all,  

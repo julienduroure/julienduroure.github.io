@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/outils-de-rigging/
 redirect_from:
   - /fr/2015/03/outils-de-rigging/
 img: 20150311_rigging_tools.png
+comments: true
 ---
 
 

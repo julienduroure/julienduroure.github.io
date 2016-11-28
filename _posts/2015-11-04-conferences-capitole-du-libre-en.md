@@ -8,6 +8,7 @@ lang: en
 ref: capitole_du_libre_2015
 tags: [Talk, RGBa]
 img: CdL.png
+comments: true
 ---
 
 Hi all,

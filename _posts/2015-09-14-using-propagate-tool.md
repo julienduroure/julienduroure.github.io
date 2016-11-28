@@ -6,6 +6,7 @@ ref: using_propagate
 tags: [Tuto, Animation]
 permalink: /:year/:month/using_propagate-tool/
 img: 20150826_using_propagate.png
+comments: true
 ---
 
 Hi there,  

@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/comprendre-les-espaces-devaluation/
 redirect_from:
   - /2015/04/comprendre-les-espaces-devaluation/
 img: 20150402_evaluation_space.png
+comments: true
 ---
 
 Bonjour à tous,

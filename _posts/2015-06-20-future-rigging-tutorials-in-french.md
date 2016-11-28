@@ -8,6 +8,7 @@ permalink: /en/:year/:month/future-rigging-tutorials-in-french/
 redirect_from:
   - /2015/06/future-rigging-tutorials-in-french/
 img: None_100.png
+comments: true
 ---
 
 Hi there,

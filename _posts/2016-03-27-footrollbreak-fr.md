@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/footrollbreak/
 redirect_from:
   /2016/03/footrollbreak/
 img: 20160327_footrollbreak.png
+comments: true
 ---
 
 Bonjour à tous,  

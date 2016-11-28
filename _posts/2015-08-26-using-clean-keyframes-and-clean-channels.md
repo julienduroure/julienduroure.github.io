@@ -8,6 +8,7 @@ permalink: /en/:year/:month/using-clean-keyframes-clean-channels/
 redirect_from:
   - /2015/08/using-clean-keyframes-and-clean-channels/
 img: 20150826_using_clean_keyframes_clean_channels.png
+comments: true
 ---
 
 Hello,

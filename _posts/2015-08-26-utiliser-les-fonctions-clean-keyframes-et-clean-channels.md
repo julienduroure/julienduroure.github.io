@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/utiliser-les-fonctions-clean-keyframes-et-clean-chan
 redirect_from:
   - /2015/08/utiliser-les-fonctions-clean-keyframes-et-clean-channels/
 img: 20150826_using_clean_keyframes_clean_channels.png
+comments: true
 ---
 
 Bonjour à tous,  

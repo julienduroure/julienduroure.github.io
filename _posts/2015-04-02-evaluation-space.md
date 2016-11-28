@@ -8,6 +8,7 @@ permalink: /en/:year/:month/evaluation-space/
 redirect_from:
   - /2015/04/evaluation-space/
 img: 20150402_evaluation_space.png
+comments: true
 ---
 
 I published in French a new video that explains evaluation space on constraints  

@@ -8,6 +8,7 @@ permalink: /en/:year/:month/riggingworflow/
 redirect_from:
   - /2015/03/riggingworflow/
 img: 20150311_rigging_tools.png
+comments: true
 ---
 
 

@@ -8,6 +8,7 @@ lang: fr
 ref: bonne-annee-2016
 tags: [RGBa]
 img: 20160127_bonneannee.png
+comments: true
 ---
 Je vous souhaite à tous une bonne année 2016 !
 

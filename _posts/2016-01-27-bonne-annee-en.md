@@ -8,7 +8,9 @@ lang: en
 ref: bonne-annee-2016
 tags: [RGBa]
 img: 20160127_bonneannee.png
+comments: true
 ---
+
 I wish you an happy new year :)  
 
 ![][99]  

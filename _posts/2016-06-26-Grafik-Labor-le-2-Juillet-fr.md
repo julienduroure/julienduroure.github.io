@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/grafik-labor-a-rennes-le-2-juillet/
 redirect_from:
   - /2016/06/grafik-labor-a-rennes-le-2-juillet/
 img: 20160626_Grafik_Labor.png
+comments: true
 ---
 
 Bonjour à tous,  

@@ -8,6 +8,7 @@ permalink: /en/:year/:month/grafik-labor-rennes-on-july-2nd/
 redirect_from:
   - /2016/06/grafik-labor-rennes-on-july-2nd/
 img: 20160626_Grafik_Labor.png
+comments: true
 ---
 
 Hi all,  

@@ -8,6 +8,7 @@ lang: fr
 ref: articulations
 tags: [Rigging, Skinning, Topology]
 img: 20160217_articulations.png
+comments: true
 ---
 
 

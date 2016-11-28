@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/tutoriel-rigging-des-sourcils/
 redirect_from:
   - /fr/2015/03/tutoriel-rigging-des-sourcils/
 img: 20150311_rigging_sourcils.png
+comments: true
 ---
 
 Bonjour à tous,

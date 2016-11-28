@@ -8,6 +8,7 @@ permalink: /fr/:year/:month/sondage-le-rigging-dans-blender/
 redirect_from:
   - /2015/06/sondage-le-rigging-dans-blender/
 img: None_100.png
+comments: true
 ---
 
 Bonjour à tous,

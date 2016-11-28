@@ -8,6 +8,7 @@ permalink: /en/:year/:month/tutorial-eyelids-rigging/
 redirect_from:
   - /2015/03/tutorial-eyelids-rigging/
 img: 20150311_rigging_sourcils.png
+comments: true
 ---
 
 Hi all,

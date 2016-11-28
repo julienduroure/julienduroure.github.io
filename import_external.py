@@ -24,11 +24,12 @@ def create_new_file(filename, yaml):
     fil_.write("tags: " + "[BleRiFa]" + "\n")
     fil_.write("img: " + yaml["img"] + "\n")
     fil_.write("external: " + BLERIFA_URL + yaml["permalink"] + "\n")
+    fil_.write("version:" + yaml["version"] + "\n")
     fil_.write("---\n")
 
-def get_yaml(filename):
+def get_yaml(dir_, filename):
     # open file and read YAML
-    fil_ = open(BLERIFA_root + BLERIFA_dir + filename, "r")
+    fil_ = open(dir_ + filename, "r")
     file_data = fil_.read()
     fil_.close()
     file_tab = file_data.split("\n")
@@ -41,7 +42,9 @@ def get_yaml(filename):
             break
         elif started == True:
             line_tab = line.split(":", 1)
-            yaml[line_tab[0]] = line_tab[1].lstrip()
+            try:
+            	yaml[line_tab[0]] = line_tab[1].lstrip()
+            except: pass #TODO : currently, tabs are not taken into account
         else:
             break
 
@@ -58,6 +61,15 @@ for filename in blerifa_list:
     #check if corresponding file exists in WWW
     if not os.path.isfile(WWW_root + WWW_dir + filename):
         print("New file : " + filename)
-        yaml = get_yaml(filename)
+        yaml = get_yaml(BLERIFA_root + BLERIFA_dir, filename)
         create_new_file(filename, yaml)
         copy_img(yaml)
+    else:
+        # already exists, but check if version changed
+        yaml_target = get_yaml(WWW_root + WWW_dir, filename)
+        yaml = get_yaml(BLERIFA_root + BLERIFA_dir, filename)
+        if "version" in yaml_target.keys() and "version" in yaml.keys() and yaml_target["version"] != yaml["version"]:
+            # update
+            print("Update file : " + filename)
+            create_new_file(filename, yaml)
+            copy_img(yaml)

@@ -12,6 +12,7 @@ alternate: feed_fr.xml
 
 Ne ratez aucune info, abonnez-vous au <a href="{{ site.baseurl }}/{{ page.alternate }}">flux RSS</a>!<br/>
 Retrouvez les articles <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}tags">triés par thème</a>.
+{% include subscribe-fr.html %}
 
 <div class="posts">
 	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}
@@ -44,3 +45,4 @@ Retrouvez les articles <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.
 			{% endif %}
    {% endfor %}
 </div>
+{% include subscribe-fr.html %}

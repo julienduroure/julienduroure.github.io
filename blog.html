@@ -11,7 +11,8 @@ alternate: feed.xml
 ---
 
 Don't miss any news, follow our <a href="{{ site.baseurl }}/{{ page.alternate }}">feed</a>!<br/>
-Find blog post <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}tags">sorted by theme</a>.
+Find blog post <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}tags">sorted by theme</a>.<br/>
+{% include subscribe-en.html %}
 
 <div class="posts">
 	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}
@@ -44,3 +45,4 @@ Find blog post <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["bl
 		{% endif %}
    {% endfor %}
 </div>
+{% include subscribe-en.html %}

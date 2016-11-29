@@ -16,6 +16,7 @@ ref: sitemap
 {% endfor %}
 
 {% for page in site.pages %}
+	{% if page.ref %}
 	{% if page.ref == 404 %}{% else %}
 		<url>
 			<loc>{{site.base}}{{page.url}}</loc>
@@ -24,6 +25,7 @@ ref: sitemap
 				<xhtml:link rel="alternate" hreflang="{{version.lang}}" href="{{site.base}}{{version.url}}"/>
 			{% endfor %}
 		</url>
+	{% endif %}
 	{% endif %}
 {% endfor %}
 

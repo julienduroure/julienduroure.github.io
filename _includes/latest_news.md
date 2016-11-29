@@ -1,2 +1,2 @@
 {% assign posts=site.documents | where:"lang", page.lang | sort: "date" | reverse %}{% for post in posts limit:3 %} | <br/>[{{post.title | truncate:30}}<br/>{% if post.img %}<img style="margin-top:10px;" src="{{ site.baseurl }}/assets/post/{{ post.img }}"/>{% endif %}]{% if post.external %}({{post.external}})<br/><br/>{% else %}({{post.url | prepend: site.baseurl }})<br/><br/>{% endif %} {%endfor%} |
-{: class="resptable resp3 card1 card2 card3"}
+{: class="resptable resp3 card1_dark card2_dark card3_dark"}

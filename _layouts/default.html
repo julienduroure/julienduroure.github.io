@@ -12,6 +12,7 @@
       <div class="wrapper">
         {{ content }}
         {% if page.layout == "post" %}
+				{% include subscribe.html %}
           <a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}">{{site.data.trad["back_blog"][page.lang]}}</a>
         {% endif %}
 				{% if page.service %}

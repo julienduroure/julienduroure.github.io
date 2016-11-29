@@ -22,6 +22,7 @@
       <div class="latest_news">
   		<div class="wrapper">
   			<h1>{{site.data.trad["latest_news"][page.lang]}}</h1>
+				{% include subscribe.html %}
 
   			{% capture include_latest_news %}{% include latest_news.md %}{% endcapture %}
   			{{ include_latest_news | markdownify }}

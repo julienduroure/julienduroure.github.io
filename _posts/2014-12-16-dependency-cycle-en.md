@@ -51,7 +51,7 @@ Here is an example that you can find in wiki.blender.org, dependency graph page 
 
 ![][5]
 
-In this example, graph goes from "Tube" to "Scene". A dependency cycle is created when a node B is dependant of a node A, but node A is also dependent of node B (with any intermediate nodes). In example bellow, a cycle is created if "Tube" is dependant of "Plane" (because "Plane" is already dependent of "Tube".
+In this example, graph goes from "Tube" to "Scene". A dependency cycle is created when a node B is dependant of a node A, but node A is also dependent of node B (with any intermediate nodes). In example bellow, a cycle is created if "Tube" is dependant of "Plane" (because "Plane" is already dependent of "Tube").
 
 
 ## Some rigging examples

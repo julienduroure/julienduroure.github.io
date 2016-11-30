@@ -28,6 +28,12 @@ ref: tags
 	{% endif %}
 {% endfor %}
 
+<div class="rssfeed">
+<a href="{{ site.baseurl }}/{{ page.alternate }}"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px;color:orange"></i></a> Abonnez-vous au flux !
+</div>
+{% include subscribe-fr.html %}
+<br/>
+
 <div class="taglist">
 {% for tag in tags %}
 	<a href="#{{ tag | slugify }}" class="post-tag"> {{ site.data.taglang[tag][page.lang] }} </a>
@@ -56,4 +62,10 @@ ref: tags
 	 {% endfor %}
 	</ul>
 {% endfor %}
+</div>
+
+<br/>
+{% include subscribe-fr.html %}
+<div class="rssfeed">
+<a href="{{ site.baseurl }}/{{ page.alternate }}"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px;color:orange"></i></a> Abonnez-vous au flux !
 </div>

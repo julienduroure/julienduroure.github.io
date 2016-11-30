@@ -15,7 +15,6 @@ alternate: feed.xml
 </div>
 {% include subscribe-en.html %}
 <br/>
-<br/>
 
 <div class="posts">
 	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}

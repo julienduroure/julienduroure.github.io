@@ -13,20 +13,20 @@
         {{ content }}
         {% if page.layout == "post" %}
 				{% include subscribe.html %}
-          <a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}">{{site.data.trad["back_blog"][page.lang]}}</a>
+          <a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}"><i class="fa fa-mail-reply" style="font-size:36px;"></i></a> {{site.data.trad["back_blog"][page.lang]}}
         {% endif %}
 				{% if page.service %}
-					<a href="{{ site.baseurl }}{{site.data.trad["service_url"][page.lang]}}">{{site.data.trad["back_service"][page.lang]}}</a>
+					<a href="{{ site.baseurl }}{{site.data.trad["service_url"][page.lang]}}"><i class="fa fa-mail-reply" style="font-size:36px;"></i></a> {{site.data.trad["back_service"][page.lang]}}
 				{% endif %}
 				{% if page.comments %}
 
 					{% include disqus.html %}
 
 					{% if page.layout == "post" %}
-						<a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}">{{site.data.trad["back_blog"][page.lang]}}</a>
+						<a href="{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}"><i class="fa fa-mail-reply" style="font-size:36px;"></i></a> {{site.data.trad["back_blog"][page.lang]}}
 					{% endif %}
 					{% if page.service %}
-						<a href="{{ site.baseurl }}{{site.data.trad["service_url"][page.lang]}}">{{site.data.trad["back_service"][page.lang]}}</a>
+						<a href="{{ site.baseurl }}{{site.data.trad["service_url"][page.lang]}}"><i class="fa fa-mail-reply" style="font-size:36px;"></i></a> {{site.data.trad["back_service"][page.lang]}}
 					{% endif %}
 				{% endif %}
       </div>

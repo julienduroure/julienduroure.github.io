@@ -10,9 +10,12 @@ ref: blog
 alternate: feed.xml
 ---
 
-Don't miss any news, follow our <a href="{{ site.baseurl }}/{{ page.alternate }}">feed</a>!<br/>
-Find blog post <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["blog_url"][page.lang]}}tags">sorted by theme</a>.<br/>
+<div class="rssfeed">
+<a href="{{ site.baseurl }}/{{ page.alternate }}"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px;color:orange"></i></a> Follow our feed!
+</div>
 {% include subscribe-en.html %}
+<br/>
+<br/>
 
 <div class="posts">
 	{% assign posts=site.documents | where:"lang", page.lang  | sort: 'date' | reverse %}
@@ -46,3 +49,6 @@ Find blog post <a href="{{ site.baseurl }}{{ site.baseurl }}{{site.data.trad["bl
    {% endfor %}
 </div>
 {% include subscribe-en.html %}
+<div class="rssfeed">
+<a href="{{ site.baseurl }}/{{ page.alternate }}"><i class="fa fa-rss" aria-hidden="true" style="font-size:36px;color:orange"></i></a> Follow our feed!
+</div>

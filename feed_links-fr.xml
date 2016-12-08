@@ -20,7 +20,8 @@ ref: feed_links
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>&lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+				{% assign post_date=post.date | date_to_rfc822 %}
+        <pubDate>{% capture publ_date %}{% include date_publish.html date=post_date %}{% endcapture %}{{ publ_date | strip_newlines }}</pubDate>
 				{% if post.external %}
 					<link>{{ post.external }}</link>
 				{% else %}

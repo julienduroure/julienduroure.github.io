@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Développement
-permalink: /services/developpement/
+permalink: /prestations/developpement/
+redirect_from: /services/developpement/
 sort: 0
 in_menu: false
 lang: fr

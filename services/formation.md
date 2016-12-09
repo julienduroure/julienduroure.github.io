@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Formation
-permalink: /services/formation/
+permalink: /prestations/formation/
+redirect_from: /services/formation/
 sort: 0
 in_menu: false
 lang: fr

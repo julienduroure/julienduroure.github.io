@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nouveau site"
-permalink: /en/:year/:month/nouveau-site/
+permalink: /fr/:year/:month/nouveau-site/
 lang: fr
 ref: new-website
 tags: [Website]

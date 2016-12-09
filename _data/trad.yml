@@ -22,3 +22,9 @@ service_url:
 back_service:
   fr: Retourner aux prestations
   en: Back to all services
+new_post:
+  fr: Un nouvel article sur le site de Julien Duroure !
+  en: A new blog post is available on Julien Duroure's website!
+new_blerifa_post:
+  fr: Un nouvel article sur le site BleRiFa !
+  en: A new blog post on BleRiFa website!

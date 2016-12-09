@@ -9,7 +9,7 @@ ref: feed_links
     <title>{{ site.title[page.lang] | xml_escape }}</title>
     <description>{{ site.description[page.lang] | xml_escape }}</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ site.url }}/feed_links-en.xml" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -19,7 +19,11 @@ ref: feed_links
 		{% else %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>&lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+        {% if post.external %}
+          <description>{{ site.data.trad['new_blerifa_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+        {% else %}
+          <description>{{ site.data.trad['new_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+        {% endif %}
 				{% assign post_date=post.date | date_to_rfc822 %}
         <pubDate>{% capture publ_date %}{% include date_publish.html date=post_date %}{% endcapture %}{{ publ_date | strip_newlines }}</pubDate>
 				{% if post.external %}

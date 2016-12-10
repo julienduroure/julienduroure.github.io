@@ -29,7 +29,7 @@ copyright: "&copy 2016 Julien Duroure"
 # Build settings
 markdown: kramdown
 
-exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/, _dev.yml, import_external.py]
+exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/, _dev.yml, import_external.py, README.md]
 
 collections:
   blerifa:

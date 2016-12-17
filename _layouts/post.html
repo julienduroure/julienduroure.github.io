@@ -3,14 +3,14 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"><center>{% if page.img %}<img src="{{ site.baseurl }}/assets/post/{{page.img}}"/>{% endif %}</center><br/> {{ page.title }}</h1>
+	<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{% if page.img %}<img src="{{ site.baseurl }}/assets/post/{{page.img}}"/>{% endif %} {{ page.title }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-    <div class="taglist">
+  	<div class="taglist">
       {% for tag in page.tags %}
         <a href="{{ site.baseurl}}/{{page.lang}}/blog/tags/#{{tag | slugify}}" class="post-tag"> {{ site.data.taglang[tag][page.lang] }} </a>
       {% endfor %}
-  </div>
+  	</div>
   </header>
 
   <div class="post-content" itemprop="articleBody">

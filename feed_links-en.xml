@@ -18,9 +18,21 @@ ref: feed_links
 		{% if post.no_rss %}
 		{% else %}
       <item>
+				{% if post.external %}
+					{% if post.type == "blerifa" %}
+					<title>{{ post.title | xml_escape }}</title>
+					{% elsif post.type == "slides" %}
+					<title>{{ post.title | xml_escape }}, {% include date.html date=post.talk_date title='X' %}</title>
+					{% endif %}
+				{% else %}
         <title>{{ post.title | xml_escape }}</title>
+				{% endif %}
         {% if post.external %}
+					{% if post.type == "blerifa" %}
           <description>{{ site.data.trad['new_blerifa_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					{% elsif post.type == "slides"%}
+					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					{% endif %}
         {% else %}
           <description>{{ site.data.trad['new_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
         {% endif %}

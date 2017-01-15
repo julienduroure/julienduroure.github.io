@@ -2,21 +2,42 @@
 {% if include.mode != 'month' %}
 	{% assign day = include.date | date: "%-d" %}
 	{% if page.lang != 'fr' %}
-		{% case day %}
-			{% when '1' or '21' or '31' %}
-				{% capture sup %}<sup>st</sup>{% endcapture %}
-			{% when '2' or '22' %}
-				{% capture sup %}<sup>nd</sup>{% endcapture %}
-			{% when '3' or '23' %}
-				{% capture sup %}<sup>rd</sup>{% endcapture %}
-			{% else %}
-				{% capture sup %}<sup>th</sup>{% endcapture %}
-		{% endcase %}
-	{% else %}
-		{% if day == "1" %}
-			{% capture sup %}<sup>er</sup>{% endcapture %}
+		{% if include.title %}
+			{% case day %}
+				{% when '1' or '21' or '31' %}
+					{% capture sup %}st{% endcapture %}
+				{% when '2' or '22' %}
+					{% capture sup %}nd{% endcapture %}
+				{% when '3' or '23' %}
+					{% capture sup %}rd{% endcapture %}
+				{% else %}
+					{% capture sup %}th{% endcapture %}
+			{% endcase %}
 		{% else %}
-			{% capture sup %}{% endcapture %}
+				{% case day %}
+					{% when '1' or '21' or '31' %}
+						{% capture sup %}<sup>st</sup>{% endcapture %}
+					{% when '2' or '22' %}
+						{% capture sup %}<sup>nd</sup>{% endcapture %}
+					{% when '3' or '23' %}
+						{% capture sup %}<sup>rd</sup>{% endcapture %}
+					{% else %}
+						{% capture sup %}<sup>th</sup>{% endcapture %}
+				{% endcase %}
+			{% endif %}
+	{% else %}
+		{% if include.title %}
+			{% if day == "1" %}
+				{% capture sup %}er{% endcapture %}
+			{% else %}
+				{% capture sup %}{% endcapture %}
+			{% endif %}
+		{% else %}
+			{% if day == "1" %}
+				{% capture sup %}<sup>er</sup>{% endcapture %}
+			{% else %}
+				{% capture sup %}{% endcapture %}
+			{% endif %}
 		{% endif %}
 	{% endif %}
 {% endif %}

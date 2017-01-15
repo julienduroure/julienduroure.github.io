@@ -31,3 +31,12 @@ new_blerifa_post:
 new_slides_post:
   fr: De nouvelles diapos sont disponibles !
   en: New slides are available !
+post:
+  fr: Article
+  en: Blog Post
+blerifa:
+  fr: BleRiFa
+  en: BleRiFa
+slides:
+  fr: Diapos
+  en: Slides

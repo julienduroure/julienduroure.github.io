@@ -145,7 +145,6 @@
    * Posts External
    */
   article .post-external {
-      background-color: lighten($background-color, 15%);
       border-radius: 25px;
       padding: 10px;
       margin-top: 10px;
@@ -160,6 +159,14 @@
         padding: 0;
       }
   }
+
+	article .external-blerifa {
+		  background-color: lighten($background-color, 10%);
+	}
+
+	article .external-slides {
+			background-color: lighten($background-color, 15%);
+	}
 
 
   /**

@@ -24,6 +24,7 @@ def create_new_file(filename, yaml):
     fil_.write("tags: " + "[BleRiFa]" + "\n")
     fil_.write("img: " + yaml["img"] + "\n")
     fil_.write("external: " + BLERIFA_URL + yaml["permalink"] + "\n")
+	fil_.write("type: blerifa\n")
     fil_.write("version: " + yaml["version"] + "\n")
     fil_.write("---\n")
 

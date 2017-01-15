@@ -49,7 +49,11 @@ ref: tags
 		 {% if post.tags contains tag %}
 		 {% if post.external %}
 				 <li>
-				<a href="{{ post.external }}">{{ post.title }}</a>
+				{% if post.type == "blerifa" %}
+				Sur BleRiFa : <a href="{{ post.external }}">{{ post.title }}</a>
+				{% elsif post.type == "slides" %}
+				Diapos : <a href="{{ post.external }}">{{ post.title }}</a>
+				{% endif %}
 				<small class="post-tag-date">{% include date.html date=post.date %}</small>
 				</li>
 		 {% else %}

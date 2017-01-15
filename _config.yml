@@ -34,6 +34,8 @@ exclude: [Gemfile, Gemfile.lock, TODO.txt, _template/, _dev.yml, import_external
 collections:
   blerifa:
     output: false
+  prez:
+    output: false
 
 gems:
   - jekyll-redirect-from

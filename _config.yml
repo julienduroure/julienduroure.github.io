@@ -36,6 +36,8 @@ collections:
     output: false
   prez:
     output: false
+  old_prez:
+    output: false
 
 gems:
   - jekyll-redirect-from

@@ -79,6 +79,12 @@ conf = {
 	// Amount to move parallax background (horizontal and vertical) on slide change
 	// Number, e.g. 100
 	parallaxBackgroundHorizontal: '',
-	parallaxBackgroundVertical: ''
+	parallaxBackgroundVertical: '',
+
+	dependencies: [
+		{ src: '../../lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+  	{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+	]
 
 } ;

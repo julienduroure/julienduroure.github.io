@@ -6,5 +6,5 @@ tags: [Slides, RGBa]
 img: CdL.png
 external: http://slides.com/rgba/cdl2016/
 talk_date: 2016-11-19
-type: slides
+type: old_slides
 ---

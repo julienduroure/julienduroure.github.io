@@ -24,14 +24,18 @@ alternate: feed.xml
 				<article class="post-external external-blerifa">
 			{% elsif post.type == "slides" %}
 				<article class="post-external external-slides">
+			{% elsif post.type == "old_slides" %}
+				<article class="post-external external-slides">
 			{% endif %}
 				<div class="entry">
 					{% if post.img %}<a href="{{ post.external }}"><img align="left" style="width:50px; height:auto;" src="{{ site.baseurl }}/assets/post/{{post.img}}"/></a>{% endif %}
 				</div>
 			{% if post.type == "blerifa" %}
 			News on BleRiFa: <a href="{{ post.external }}">{{ post.title }}</a> <small class="post-date">{% include date.html date=post.date %}</small>
-			{% elsif post.type == "slides" %}
+			{% elsif post.type == "old_slides" %}
 			New slides: <a href="{{ post.external }}">{{ post.title }}, {% include date.html date=post.talk_date %}</a> <small class="post-date">{% include date.html date=post.date %}</small>
+			{% elsif post.type == "slides" %}
+			New slides: <a href="{{ site.baseurl }}/{{ post.external }}">{{ post.title }}, {% include date.html date=post.talk_date %}</a> <small class="post-date">{% include date.html date=post.date %}</small>
 			{% endif %}
 			<div class="taglist_in_postlist">
 				{% for tag in post.tags %}

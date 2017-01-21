@@ -54,14 +54,16 @@ ref: tags
 			 On BleRiFa: <a href="{{ post.external }}">{{ post.title }}</a>
 			{% elsif post.type == "old_slides" %}
 			 Slides: <a href="{{ post.external }}">{{ post.title }}</a>
-			{% elsif post.type == "slides" %}
- 			 Slides: <a href="{{ site.baseurl }}/{{ post.external }}">{{ post.title }}</a>
 			{% endif %}
 			 <small class="post-tag-date">{% include date.html date=post.date %}</small>
 			 </li>
 			{% else %}
 			 <li>
+				 {% if post.type == "slides" %}
+				 Slides: <a href="{{ post.url }}">{{ post.title }}</a>
+				 {% else %}
 			 <a href="{{ post.url }}">{{ post.title }}</a>
+			 {% endif %}
 			 <small class="post-tag-date">{% include date.html date=post.date %}</small>
 			 </li>
 			{% endif %}

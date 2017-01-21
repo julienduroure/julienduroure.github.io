@@ -21,24 +21,28 @@ ref: feed_links
 				{% if post.external %}
 					{% if post.type == "blerifa" %}
 					<title>{{ post.title | xml_escape }}</title>
-					{% elsif post.type == "slides" %}
-					<title>{{ post.title | xml_escape }}, {% include date.html date=post.talk_date title='X' %}</title>
 					{% elsif post.type == "old_slides" %}
 					<title>{{ post.title | xml_escape }}, {% include date.html date=post.talk_date title='X' %}</title>
 					{% endif %}
 				{% else %}
+				{% if post.type == "slides" %}
+				<title>{{ post.title | xml_escape }}, {% include date.html date=post.talk_date title='X' %}</title>
+				{% else %}
         <title>{{ post.title | xml_escape }}</title>
+				{% endif %}
 				{% endif %}
 				{% if post.external %}
 					{% if post.type == "blerifa" %}
 					<description>{{ site.data.trad['new_blerifa_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
-					{% elsif post.type == "slides"%}
-					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
 					{% elsif post.type == "old_slides"%}
 					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
 					{% endif %}
         {% else %}
+					{% if post.type == "slides" %}
+					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					{% else %}
           <description>{{ site.data.trad['new_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					{% endif %}
         {% endif %}
 				{% assign post_date=post.date | date_to_rfc822 %}
         <pubDate>{% capture publ_date %}{% include date_publish.html date=post_date %}{% endcapture %}{{ publ_date | strip_newlines }}</pubDate>
@@ -47,8 +51,6 @@ ref: feed_links
 					<link>{{ post.external }}</link>
 				{% elsif post.type == "old_slides" %}
 					<link>{{ post.external }}</link>
-				{% elsif post.type == "slides" %}
-					<link>{{ site.baseurl }}/{{ post.external }}</link>
 				{% endif %}
 				{% else %}
         	<link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
@@ -58,8 +60,6 @@ ref: feed_links
 						<guid isPermaLink="true">{{ post.external }}</guid>
 					{% elsif post.type == "old_slides" %}
 						<guid isPermaLink="true">{{ post.external }}</guid>
-					{% elsif post.type == "slides" %}
-						<guid isPermaLink="true">{{ site.baseurl }}/{{ post.external }}</guid>
 					{% endif %}
 				{% else %}
         	<guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

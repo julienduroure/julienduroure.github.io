@@ -41,6 +41,7 @@ alternate: feed.xml
 		</article>
 		{% else %}
 			{% if post.type == "slides" %}
+			{% if post.no_publish == true %}{% else %}
 			<article class="post-external external-slides">
 				<div class="entry">
 					{% if post.img %}<a href="{{ post.url }}"><img align="left" style="width:50px; height:auto;" src="{{ site.baseurl }}/assets/post/{{post.img}}"/></a>{% endif %}
@@ -52,6 +53,7 @@ alternate: feed.xml
 					{% endfor %}
 			</div>
 			</article>
+			{% endif %}
 			{% else %}
 			<article class="post">
 				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <small class="post-date">{% include date.html date=post.date %}</small></h1>

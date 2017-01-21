@@ -17,6 +17,8 @@ ref: feed_links
     {% for post in posts %}
 		{% if post.no_rss %}
 		{% else %}
+			{% if post.no_publish == true %}
+			{% else %}
       <item>
 				{% if post.external %}
 					{% if post.type == "blerifa" %}
@@ -68,6 +70,7 @@ ref: feed_links
         <category>{{ tag | xml_escape }}</category>
         {% endfor %}
       </item>
+		{% endif %}
 		{% endif %}
     {% endfor %}
   </channel>

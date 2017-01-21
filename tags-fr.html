@@ -47,6 +47,7 @@ ref: tags
 	{% assign posts = site.documents | where:"lang", page.lang | sort: 'date' | reverse %}
 	 {% for post in posts %}
 		 {% if post.tags contains tag %}
+		 {% if post.no_publish == true %}{% else %}
 		 {% if post.external %}
 				 <li>
 				{% if post.type == "blerifa" %}
@@ -66,6 +67,7 @@ ref: tags
 			 <small class="post-tag-date">{% include date.html date=post.date %}</small>
 			 </li>
 			{% endif %}
+		 {% endif %}
 		 {% endif %}
 	 {% endfor %}
 	</ul>

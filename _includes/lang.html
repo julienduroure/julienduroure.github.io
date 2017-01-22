@@ -4,6 +4,11 @@
 	<span class="lang_item"><a href="{{ post.url }}" class="{{ post.lang }}">{{ site.data.langdescr[post.lang] }}</a></span>
 {% endfor %}
 
+{% assign posts=site.ready | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+	<span class="lang_item"><a href="{{ post.url }}" class="{{ post.lang }}">{{ site.data.langdescr[post.lang] }}</a></span>
+{% endfor %}
+
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% for page in pages %}
 	<span class="lang_item"><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ site.data.langdescr[page.lang] }}</a></span>

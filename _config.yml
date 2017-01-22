@@ -35,9 +35,11 @@ collections:
   blerifa:
     output: false
   prez:
-    output: false
+    output: true
   old_prez:
     output: false
+  ready:
+    output: true
 
 gems:
   - jekyll-redirect-from

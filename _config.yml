@@ -41,5 +41,27 @@ collections:
   ready:
     output: true
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      assets: ""
+
+  -
+    scope:
+      path: ""
+      type: "prez"
+    values:
+      assets: ""
+
+  -
+    scope:
+      path: ""
+      type: "old_prez"
+    values:
+      assets: ""
+
 gems:
   - jekyll-redirect-from

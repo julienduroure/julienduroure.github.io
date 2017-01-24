@@ -5,3 +5,5 @@ _site
 TODO*
 _drafts/*
 _dev.yml
+_ready/**
+assets/ready/**

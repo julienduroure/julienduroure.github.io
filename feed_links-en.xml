@@ -35,15 +35,15 @@ ref: feed_links
 				{% endif %}
         {% if post.external %}
 					{% if post.type == "blerifa" %}
-          <description>{{ site.data.trad['new_blerifa_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+          <description>{{ site.data.trad['new_blerifa_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/{{ post.assets }}post/{{post.img}}"&gt;</description>
 					{% elsif post.type == "old_slides"%}
-					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/{{ post.assets }}post/{{post.img}}"&gt;</description>
 					{% endif %}
         {% else %}
 					{% if post.type == "slides" %}
-					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+					<description>{{ site.data.trad['new_slides_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/{{ post.assets }}post/{{post.img}}"&gt;</description>
 					{% else %}
-          <description>{{ site.data.trad['new_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/post/{{post.img}}"&gt;</description>
+          <description>{{ site.data.trad['new_post'][page.lang] }}&lt;br/&gt; &lt;br/&gt; &lt;img src="{{ site.url }}/assets/{{ post.assets }}post/{{post.img}}"&gt;</description>
 					{% endif %}
         {% endif %}
 				{% assign post_date=post.date | date_to_rfc822 %}

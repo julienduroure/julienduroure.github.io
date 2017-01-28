@@ -4,7 +4,7 @@ title:  Rigging - Cycle de dépendance
 lang: fr
 ref: dependency-cycle-detected
 tags: [Rigging, Tuto]
-permalink: /en/:year/:month/detection-cycle-de-dependance/
+permalink: /fr/:year/:month/detection-cycle-de-dependance/
 img: 20141216_dep.png
 comments: true
 ---

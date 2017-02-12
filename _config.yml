@@ -24,7 +24,7 @@ twitter_username: julienduroure
 github_username:  julienduroure
 analytics: UA-35258207-1 #false or UA_ID
 
-copyright: "&copy 2016 Julien Duroure"
+copyright: "&copy 2016-2017 Julien Duroure"
 
 # Build settings
 markdown: kramdown

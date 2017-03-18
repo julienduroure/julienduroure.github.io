@@ -19,7 +19,7 @@ Complete link for installation / update: [here][3]
 bundle update github-pages
 
 # Bundle stuff: Run
-bundle exec jekyll serve --config _dev.xml
+bundle exec jekyll serve --config _dev.yml
 
 [1]: http://julienduroure.com
 [2]: https://jekyllrb.com/

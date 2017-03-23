@@ -4,7 +4,7 @@ lang: en
 ref: MassKeyingSets-beta
 tags: [BleRiFa]
 img: 20160809_MassKeyingSets.png
-external: http://BleRiFa.com/2016/08/09/MassKeyingSets-beta-launch/
+external: http://BleRiFa.com/en/2016/08/MassKeyingSets-beta-launch/
 type: blerifa
-version: 2
+version: 3
 ---

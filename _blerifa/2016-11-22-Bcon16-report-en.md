@@ -2,9 +2,9 @@
 title: "Blender Conf 2016: Report"
 lang: en
 ref: bcon_report
-tags: [BleRiFa,Talk]
+tags: [BleRiFa]
 img: BConf2016.jpg
-external: http://BleRiFa.com/2016/11/22/bcon16-report/
+external: http://BleRiFa.com/en/2016/11/bcon16-report/
 type: blerifa
-version: 1
+version: 2
 ---

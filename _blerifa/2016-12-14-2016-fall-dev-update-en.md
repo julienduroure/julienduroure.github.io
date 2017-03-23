@@ -4,7 +4,7 @@ lang: en
 ref: 2016-fall-update
 tags: [BleRiFa]
 img: 20161214_dev_update.png
-external: http://BleRiFa.com/2016/12/14/2016-fall-update/
+external: http://BleRiFa.com/en/2016/12/2016-fall-update/
 type: blerifa
-version: 1
+version: 2
 ---

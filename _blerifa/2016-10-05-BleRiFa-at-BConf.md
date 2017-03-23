@@ -2,9 +2,9 @@
 title: BleRiFa à la Blender Conference
 lang: fr
 ref: BleRiFa-BConf-2016
-tags: [BleRiFa, Talk]
+tags: [BleRiFa]
 img: BConf2016.jpg
-external: http://BleRiFa.com/2016/10/05/BleRiFa-BConf-2016-fr/
+external: http://BleRiFa.com/fr/2016/10/BleRiFa-BConf-2016/
 type: blerifa
-version: 1
+version: 2
 ---

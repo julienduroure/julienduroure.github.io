@@ -33,4 +33,4 @@ La documentation complète de l'addon est disponible, en anglais, sur [cette pag
 Amusez-vous avec !
 
 [1]: https://cgcookiemarkets.com/all-products/footrollbreak/
-[2]: http://blerifa.com/tools/FootRollBreak/
+[2]: http://blerifa.com/fr/tools/FootRollBreak/

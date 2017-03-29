@@ -16,7 +16,7 @@ service: True
 <br/>
 <br/>
 
-| ![][1]<br/>[Artoris][2]<br/>_Formation Blender depuis 2013_ |  ![][3]<br/>[Elphorm][4]<br/>_"L'animation dans Blender", <br/>formation vidéo_  |  ![][5]<br/>[INSA][6]<br/>_Initiation à Blender depuis 2009_ |
+| ![][1]<br/>[Artoris][2]<br/>_Formation Blender depuis 2013_ |  ![][3]<br/>[Elephorm][4]<br/>_"L'animation dans Blender", <br/>formation vidéo_  |  ![][5]<br/>[INSA][6]<br/>_Initiation à Blender depuis 2009_ |
 | ![][7]<br/>[Toulibre][8]<br/>_Conférences_ |  ![][9]<br/>[Grafik Labor][10]<br/>_Conférence et Masterclass_  |  ![][11]<br/>[Capitole du Libre][12]<br/>_Conférences et ateliers_ |
 | ![][13]<br/>[BUG Toulouse][14]<br/>_Membre actif du BUG<br/>Ateliers, conférences, aide..._ |  ![][15]<br/>[Vous ?][16]<br/>_Besoin d'une formation ?_  | ![][15]<br/>[Vous ?][16]<br/>_Envie d'une conférence ?_ |
 {: class="resptable resp4 card1 card2 card3"}

@@ -15,7 +15,7 @@ service: True
 <br/>
 <br/>
 
-| ![][1]<br/>[Artoris][2]<br/>_Training since 2013_ |  ![][3]<br/>[Elphorm][4]<br/>_"Animation in Blender", <br/>video training_  |  ![][5]<br/>[INSA][6]<br/>_Blender initiation since 2009_ |
+| ![][1]<br/>[Artoris][2]<br/>_Training since 2013_ |  ![][3]<br/>[Elephorm][4]<br/>_"Animation in Blender", <br/>video training_  |  ![][5]<br/>[INSA][6]<br/>_Blender initiation since 2009_ |
 | ![][7]<br/>[Toulibre][8]<br/>_Talks_ |  ![][9]<br/>[Grafik Labor][10]<br/>_Talk and Masterclass_  |  ![][11]<br/>[Capitole du Libre][12]<br/>_Talks and masterclass_ |
 | ![][13]<br/>[BUG Toulouse][14]<br/>_Active member of BUG<br/>masterclass, talks, training..._ |  ![][15]<br/>[You ?][16]<br/>_Need a training ?_  | ![][15]<br/>[You ?][16]<br/>_Want a talk from me ?_ |
 {: class="resptable resp4 card1 card2 card3"}

@@ -16,6 +16,6 @@ I will be at Grafik Labor, Rennes, on July 2nd.
 
 I will animate, in French, a master class, and have a talk.
 
-Complete program is available here : [http://www.afgral.org/programme](1)
+Complete program is available here : [http://www.afgral.org/programme][1]
 
 [1]: http://www.afgral.org/programme

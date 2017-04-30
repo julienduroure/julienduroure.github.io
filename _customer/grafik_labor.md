@@ -7,5 +7,5 @@ title:
   en: "Talk and Masterclass"
 url_: http://afgral.org/
 img: logo_grafik_labor.png
-sort_nb: 5
+sort_nb: 6
 ---

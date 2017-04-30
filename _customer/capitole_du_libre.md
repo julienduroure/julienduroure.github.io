@@ -7,5 +7,5 @@ title:
   en: "Talk and Masterclass"
 url_: http://capitoledulibre.org/
 img: logo_CdL.png
-sort_nb: 6
+sort_nb: 7
 ---

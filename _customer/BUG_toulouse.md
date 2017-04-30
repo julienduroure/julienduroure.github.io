@@ -7,5 +7,5 @@ title:
   en: "Talk, Masterclass, training"
 url_: http://toulibre.org
 img: logo_blender.png
-sort_nb: 7
+sort_nb: 8
 ---

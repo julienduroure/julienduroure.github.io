@@ -40,6 +40,8 @@ collections:
     output: false
   ready:
     output: true
+  customer:
+    output: false
 
 defaults:
   -

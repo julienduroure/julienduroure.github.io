@@ -11,5 +11,3 @@ service: True
 
 | | __Training__ <br/><br/>![Training]({{ site.baseurl }}/assets/imgs/site/training.png)<br/><br/>One on One<br/><br/>Class session<br/><br/>Online Training | |
 {: class="resptable resp3 card2"}
-
-{% include tiles_customer.html %}  

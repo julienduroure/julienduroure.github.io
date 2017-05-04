@@ -24,7 +24,7 @@ Puis je me rends compte que cette liste de vérification peut également me serv
 		<br/>
 
     * Mise à l'échelle
-    Lorsqu'on modifie le _scale_ de l'os root, le modèle ne doit pas se déformer. Sinon, c'est qu'il y a un soucis de parentage et / ou de contraintes.  
+    Lorsqu'on modifie le _scale_ de l'os root, le modèle ne doit pas se déformer (en dehors d'être mis à l'échelle uniformément). Sinon, c'est qu'il y a un soucis de parentage et / ou de contraintes.  
     ![][4]  
 		<br/>
 

@@ -23,7 +23,7 @@ Then I realised that this list can be used as a check-list before deliver a rig.
 		<br/>
 
     * Scaling  
-    When scaling root bone, model should'nt deform. Otherwise there is a problem of parent or constraint.  
+    When scaling root bone, model should scale uniformally, without deforming some part of the mesh. Otherwise there is a problem of parent or constraint.  
     ![][4]  
 		<br/>
 

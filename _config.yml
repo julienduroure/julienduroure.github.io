@@ -65,5 +65,5 @@ defaults:
     values:
       assets: ""
 
-gems:
+plugins:
   - jekyll-redirect-from

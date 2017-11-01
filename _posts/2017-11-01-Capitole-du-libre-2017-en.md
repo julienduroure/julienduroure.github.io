@@ -10,7 +10,7 @@ comments: true
 ---
 
 Hi all,  
-[Capitole du Libre, 2017 edition][3] is coming ! This is a big event, in Toulouse, about free & opensource software.  
+[Capitole du Libre, 2017 edition][3] is coming (November 18th & 19th)! This is a big event, in Toulouse, about free & opensource software.  
 
 This year, I will give a speach (in French) about rigging automation in Blender ([Rigify][4], [BlenRig][5] et [AutoRig Pro][6]).  
 This talk will take place on room A203, sunday at 11.30AM.

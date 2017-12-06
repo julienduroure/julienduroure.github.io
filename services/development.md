@@ -9,7 +9,7 @@ ref: development
 service: True
 ---
 
-| | __Scripting__ <br/><br/>![Dev][1]<br/><br/>Addons<br/><br/>python scripting<br/><br/>What you want!<br/><br/> | |
+| | __Scripting__ <br/><br/>![Dev][1]<br/><br/>[Addons][2]<br/><br/>[python scripting][2]<br/><br/>What you want!<br/><br/> | |
 {: class="resptable resp3 card2"}
 
 <br/>

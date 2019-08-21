@@ -67,6 +67,7 @@ Il y a quelques semaines, la version 2.80 de Blender est sortie. Elle contient d
 
 Le travail va continuer. En plus de la gestion des bugs, je compte travailler plus particulièrement sur l'export d'animation, qui manquent d'options et de maturité. Dans un deuxième temps, il faudra faire un gros travail sur les performances. Toutes les personnes volontaires sont bien sûr bienvenues :)
 
+
 [1]: http://julienduroure.com/fr/2018/06/blender-gltf-importer/
 [2]: https://www.khronos.org/gltf/
 [3]: https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md

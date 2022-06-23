@@ -1,9 +1,0 @@
-_site
-.sass-cache
-.jekyll-metadata
-*~
-TODO*
-_drafts/*
-_dev.yml
-_ready/**
-assets/ready/**
